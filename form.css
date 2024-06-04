@@ -1,0 +1,35 @@
+body {
+      font-family: sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    #pregunta-container {
+        width: 500px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    
+   
+    
+    .opciones {
+        margin-bottom: 20px;
+    }
+    
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    label {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    #verificar {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
